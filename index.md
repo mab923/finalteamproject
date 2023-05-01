@@ -28,6 +28,7 @@ We plan to create a row in our DataFrame for each change in the reserve requirem
 ### 3. Analysis
 
 ## Results
+<img src="pics/download.png?raw=true"/>
 
 ## Summary
 
