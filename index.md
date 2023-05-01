@@ -1,5 +1,5 @@
 # Fin 377 Final Team Project
- ### Margaux Brennan, Isabel Prado, Natan Rosen
+### Margaux Brennan, Isabel Prado, Natan Rosen
 
 ## Introduction
 Our research aims to investigate the correlation between changes in monetary policy and market performance. We have chosen to inspect this through the lense of changes in the Reserve Requirement by the Federal Open Market Committee (FOMC) and returns from the S&P 500, Vanguard Long-Term Bond Index Fund **CHANGE** and Vanguard Short-Term Bond Index Fund Admiral Shares (VBIRX).
