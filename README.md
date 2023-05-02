@@ -1,13 +1,12 @@
-# Welcome to our [team project website!](https://julioveracruz.github.io/testwebsite/)
+# Welcome to our [team project website!](https://mab923.github.io/finalteamproject)
 
 This is a website to showcase our final project for FIN 377 - Data Science for Finance course at Lehigh University.
 
+The basis for our report was analyzing the connection between the changes in interest rates brought on by FOMC meetings on the stock market and bonds. The project analyzes the S&P 500 as an indicator for stock correlation and the VBIRX and VBILX indexes as bond samples. 
+
 To see the complete analysis file(s) click [here](https://github.com/julioveracruz/testwebsite/blob/main/notebooks/example.ipynb).
 
-Maybe you want a different website them for the project? Consider `minimal-mistakes`:
-1. [Go here](https://github.com/mmistakes/mm-github-pages-starter/generate).
-2. In the resulting repo, click Settings, then Pages, then make sure the source is the main branch.
-3. [The doc site is here](https://mmistakes.github.io/minimal-mistakes/docs/structure/) and will help you customize layouts and figure out how to use it.
+
 
 ## Table of contents
 1. [Introduction](#introduction)
