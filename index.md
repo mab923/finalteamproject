@@ -15,7 +15,7 @@ Therefore, by examining the impact of FOMC's offical announcements on the perfor
 To investigate the relationship between the stock and bond markets in the context of the S&P 500 firms. To achieve this, we will carry out an event study. We have determine that we we will utlize data spanning over a period of eight years - from 2015 to 2022.
 
 ### 1. Find Data
-The data set will consist of daily market return data on days t-15 to t+15, where t represents the date of the reserve requirement change.
+The data set will consist of daily market return data on days t-10 to t+10, where t represents the date of the reserve requirement change.
 
 We will require data on market performance information sourced from the S&P 500, VBILX, and VBIRX. As well as information on the change in Reserve Requirement from the Federal Reserve Board for information on changes in montetary policy durong our specified time period. This information will allow us to study the impact of monetary policy decisions and potential correlation between the policy and stocks & bonds
 
@@ -30,20 +30,28 @@ From there we created out own event time variable that allowed us to view each e
 We created two different types of figures to analyze out findings.
  1. Correlation Matrix
 <img src="pics/corr.png?raw=true"/>
+From this plot we can easily see the strength of correlation between increases and decreases of the FOMC rate and the returns on each index.
  2. Line Plots
-   Plot #1
-   <img src="pics/p1.png?raw=true"/>
-
-   Plot #2
-   <img src="pics/p2.png?raw=true"/>
-
-   Plot #3
-   <img src="pics/p3.png?raw=true"/>
-
-   Plot #4
-   <img src="pics/p4.png?raw=true"/>
-
+   **Plot #1**
+    <img src="pics/p1.png?raw=true"/>
+    From this plot we are able to determine the effects of an increase in the FOMC rate on the returns of each of our indexes over our 10day span.
+   **Plot #2**
+    <img src="pics/p2.png?raw=true"/>
+    From this plot we are able to determine the effects of a decrease in the FOMC rate on the returns of each of our indexes over our 10day span.
+   **Plot #3**
+    <img src="pics/p3.png?raw=true"/>
+    From this plot we are able to analyze the impact of the negative and postive rates on the returns of the S&P 500
+   **Plot #4**
+    <img src="pics/p4.png?raw=true"/>
+    From this plot we are able to analyze the impact of the negative and postive rates on the returns of  VBIRX
+    **Plot #5** 
+    <img src="pics/p5.png?raw=true"/>
+    From this plot we are able to analyze the impact of the negative and postive rates on the returns of VBLIX
 
 
 ## Our Team
+Margaux Brennan
 
+Isabel Prado
+
+Natan Rosen
