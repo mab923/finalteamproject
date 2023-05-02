@@ -27,7 +27,7 @@ Below is a high-level overview of the steps we took during the project. For a mo
 
 ## Introduction  <a name="introduction"></a>
 
-Interest rate changes can have large effects on the economy in both the stock and bond market. We wanted to look deeper into how these securities react to changes in the days leading up to and following a FOMC meeting and corresponding hike. 
+Interest rate changes can have large effects on the economy in both the stock and bond market. This project takes a look deeper into how different securities react to changes in the days leading up to and following a FOMC meeting and corresponding hike. The project also takes a look at how the magnitude of a rate change can affect the returns of different stocks and bonds.
 
 ## Data Description <a name="data"></a>
 
@@ -47,23 +47,8 @@ The FOMC dataset was used to collect the different rate hikes that occured over 
 
 To see the collection of datasets used (raw/clean/final) click [here](https://github.com/mab923/finalteamproject/tree/main/inputs).
 
-```python
-import seaborn as sns 
-iris = sns.load_dataset('iris') 
 
-print(iris.head(),  '\n---')
-print(iris.tail(),  '\n---')
-print(iris.columns, '\n---')
-print("The shape is: ",iris.shape, '\n---')
-print("Info:",iris.info(), '\n---') # memory usage, name, dtype, and # of non-null obs (--> # of missing obs) per variable
-print(iris.describe(), '\n---') # summary stats, and you can customize the list!
-print(iris['species'].value_counts()[:10], '\n---')
-print(iris['species'].nunique(), '\n---')
-```
-
-Notice that the output does NOT show! **You have to copy in figures and tables from the notebooks.**
-
-## Section <a name="meth"></a>
+## Methodologies <a name="meth"></a>
 Blah blah
 
 ### Subsection 1 <a name="subsec2-1"></a>
@@ -76,17 +61,18 @@ This is a subsection, formatted in heading 3 style
 
 Here are some graphs that we created in our analysis. We saved them to the `pics/` subfolder and include them via the usual markdown syntax for pictures.
 
-![](pics/plot1.png)
-<br><br>
+![](pics/corr.png)
+This correlation matrix displays the correlation coefficients between the variables we created in our EDA process. 
+More analysis.
+![](pics/p1.png)
+This graph depicts the returns of our 3 chosen securities after a interest rate hike. The time variable on the bottom depicts the days leading up to the rate change and the days following.
 Some analysis here
 <br><br>
-![](pics/plot2.png)
+![](pics/p2.png)
 <br><br>
-More analysis here.
+This graph is similar to the one above but depicts the returns after a decrease in interest rates.
 <br><br>
-![](pics/plot3.png)
-<br><br>
-More analysis.
+
 
 ## Summary <a name="summary"></a>
 
@@ -106,3 +92,18 @@ Don is an assistant professor at Lehigh.
 
 ## More 
 
+```python
+import seaborn as sns 
+iris = sns.load_dataset('iris') 
+
+print(iris.head(),  '\n---')
+print(iris.tail(),  '\n---')
+print(iris.columns, '\n---')
+print("The shape is: ",iris.shape, '\n---')
+print("Info:",iris.info(), '\n---') # memory usage, name, dtype, and # of non-null obs (--> # of missing obs) per variable
+print(iris.describe(), '\n---') # summary stats, and you can customize the list!
+print(iris['species'].value_counts()[:10], '\n---')
+print(iris['species'].nunique(), '\n---')
+```
+
+Notice that the output does NOT show! **You have to copy in figures and tables from the notebooks.**
