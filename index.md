@@ -27,12 +27,23 @@ We created a row in our data frame for every date in the fifteen days prior and 
 From there we created out own event time variable that allowed us to view each event in isolation. From there we were able to average all our results across indexes to receive an overarching answer to our question.
 
 ### 3. Analysis
-We created three different types of figures to analyze out findings.
+We created two different types of figures to analyze out findings.
  1. Correlation Matrix
- 2. Scatter Plot
- 3. Event Study Graph
+<img src="pics/corr.png?raw=true"/>
+ 2. Line Plots
+   Plot #1
+   <img src="pics/p1.png?raw=true"/>
 
-## Potential Issues 
+   Plot #2
+   <img src="pics/p2.png?raw=true"/>
+
+   Plot #3
+   <img src="pics/p3.png?raw=true"/>
+
+   Plot #4
+   <img src="pics/p4.png?raw=true"/>
+
+
 
 ## Our Team
 
