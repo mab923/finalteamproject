@@ -28,14 +28,16 @@ From there we created out own event time variable that allowed us to view each e
 
 ### 3. Analysis
 We created two different types of figures to analyze out findings.
- 1. Correlation Matrix
+ A. Correlation Matrix
+ 
 <img src="pics/corr.png?raw=true"/>
 From this plot we can easily see the strength of correlation between increases and decreases of the FOMC rate and the returns on each index.
- 2. Line Plots
-   **Plot #1**
+ 
+ B. Line Plots
+    **Plot #1**
     <img src="pics/p1.png?raw=true"/>
     From this plot we are able to determine the effects of an increase in the FOMC rate on the returns of each of our indexes over our 10day span.
-   **Plot #2**
+    **Plot #2**
     <img src="pics/p2.png?raw=true"/>
     From this plot we are able to determine the effects of a decrease in the FOMC rate on the returns of each of our indexes over our 10day span.
    **Plot #3**
