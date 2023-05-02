@@ -82,7 +82,6 @@ Blah blah
 
 
 ## About the team
-finalteamproject/pics/6FB5FD7F-9E42-4F5C-BE04-D13CF10E6667.jpeg
 <img src="pics/6FB5FD7F-9E42-4F5C-BE04-D13CF10E6667.jpeg" alt="nathan" width="300"/>
 <br>
 Nathan is a senior at Lehigh studying finance and business analytics.
