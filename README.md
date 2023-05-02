@@ -16,8 +16,8 @@ To see the complete analysis file(s) click [here](https://github.com/mab923/fina
 
 ## Table of contents
 1. [Introduction](#introduction)
-2. [Methodology](#meth)
-3. [Section 2](#section2)
+2. [Data](#data)
+3. [Methodology 2](#meth)
     1. [Subsection](#subsec2-1)
     2. [Subsection](#subsec2-2)
 4. [Analysis Section](#section3)
@@ -27,12 +27,22 @@ To see the complete analysis file(s) click [here](https://github.com/mab923/fina
 
 Interest rate changes can have large effects on the economy in both the stock and bond market. We wanted to look deeper into how these securities react to changes in the days leading up to and following a FOMC meeting and corresponding hike. 
 
-## Methodology <a name="meth"></a>
+## Data Description <a name="data"></a>
 
-The first step in 
- 
-Note that for the purposes of the website, you have to copy this code into the markdown file and  
-put the code inside trip backticks with the keyword `python`.
+We chose to use data from the years 2015 through 2023. We felt this was a large enough sample to draw conclusion from without making the dataset too large. 
+
+In order to properly track the movement of stock price and bond prices we chose the following securities to track:
+- Federal Open Market Committee (FOMC)
+- S&P 500 - indicator for stock correlation
+- Vanguard Intermdiate Long-Term Bond Index Fund (VBILX) -bond sample
+- Vanguard Short-Term Bond Index Fund Admiral Shares (VBIRX) - bond sample
+
+The two bond indexes were chosen due to their relatively stable returns and low risk metrics. The two bonds indexes would cover the correlation between bonds and rate hikes for our analysis
+
+The S&P 500 was the logical choice for tracking the stock market due to the high variety in sector, industry, and size of the companies in the index.
+
+The FOMC dataset was used to collect the different rate hikes that occured over the period of 2015-2023
+
 
 ```python
 import seaborn as sns 
@@ -50,7 +60,7 @@ print(iris['species'].nunique(), '\n---')
 
 Notice that the output does NOT show! **You have to copy in figures and tables from the notebooks.**
 
-## Section <a name="section2"></a>
+## Section <a name="meth"></a>
 Blah blah
 
 ### Subsection 1 <a name="subsec2-1"></a>
