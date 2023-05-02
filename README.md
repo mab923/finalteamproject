@@ -43,6 +43,7 @@ The S&P 500 was the logical choice for tracking the stock market due to the high
 
 The FOMC dataset was used to collect the different rate hikes that occured over the period of 2015-2023
 
+To see the collection of datasets used (raw/clean/final) click [here](https://github.com/mab923/finalteamproject/tree/main/inputs).
 
 ```python
 import seaborn as sns 
