@@ -2,9 +2,15 @@
 
 This is a website to showcase our final project for FIN 377 - Data Science for Finance course at Lehigh University.
 
-The basis for our report was analyzing the connection between the changes in interest rates brought on by FOMC meetings on the stock market and bonds. The project analyzes the S&P 500 as an indicator for stock correlation and the VBIRX and VBILX indexes as bond samples. 
+The basis for this report was analyzing the connection between the changes in interest rates brought on by FOMC meetings on the stock market and bonds. The project analyzes the S&P 500 as an indicator for stock correlation and the VBIRX and VBILX indexes as bond samples. 
 
-To see the complete analysis file(s) click [here](https://github.com/julioveracruz/testwebsite/blob/main/notebooks/example.ipynb).
+# Hypothesis 
+
+Our group suspected that large increases in interest rates would lead to negative returns in the days before and after an FOMC meeting and vice versa
+
+
+
+To see the complete analysis file(s) click [here](https://github.com/mab923/finalteamproject/blob/main/Analysis/Final_Analysis.ipynb).
 
 
 
