@@ -6,7 +6,7 @@ The basis for this report was analyzing the connection between the changes in in
 
 # Hypothesis 
 
-We suspect that large increases in interest rates would lead to negative or lower returns in the days before and after an FOMC meeting and vice versa
+Large increases in interest rates would lead to negative or lower returns in the days before and after an FOMC meeting and vice versa
 
 
 
