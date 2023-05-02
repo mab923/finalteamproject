@@ -6,7 +6,7 @@ The basis for this report was analyzing the connection between the changes in in
 
 # Hypothesis 
 
-Our group suspected that large increases in interest rates would lead to negative returns in the days before and after an FOMC meeting and vice versa
+We suspect that large increases in interest rates would lead to negative or lower returns in the days before and after an FOMC meeting and vice versa
 
 
 
@@ -25,11 +25,11 @@ To see the complete analysis file(s) click [here](https://github.com/mab923/fina
 
 ## Introduction  <a name="introduction"></a>
 
-(The "Introduction" text above is formatted in heading 2 style.) The main goal of this project is to explore *(insert project idea here)*.  
+Interest rate changes can have large effects on the economy in both the stock and bond market. We wanted to look deeper into how these securities react to changes in the days leading up to and following a FOMC meeting and corresponding hike. 
 
 ## Methodology <a name="meth"></a>
 
-Here is some code that we used to develop our analysis. Blah Blah. [More details are provided in the Appendix](page2).
+The first step in 
  
 Note that for the purposes of the website, you have to copy this code into the markdown file and  
 put the code inside trip backticks with the keyword `python`.
