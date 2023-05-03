@@ -91,7 +91,7 @@ Our hypothesis was both challenged and supported by our findings in this project
 <br>
 Nathan is a senior at Lehigh studying finance and business analytics.
 <br><br><br>
-<img src="pics/margaux.jpg" alt="margaux" width="300"/>
+<img src="pics/margaux.JPG" alt="margaux" width="300"/>
 <br>
 Isabel is a senior at Lehigh studying finance and business analytics.
 <br><br><br>
