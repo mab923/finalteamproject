@@ -58,9 +58,15 @@ From this plot we can easily see the strength of correlation between increases a
  From this plot we are able to analyze the impact of the negative and postive rates on the returns of VBLIX
 
 
-## Our Team
-Margaux Brennan
-
-Isabel Prado
-
-Natan Rosen
+## About the team
+<img src="pics/6FB5FD7F-9E42-4F5C-BE04-D13CF10E6667.jpeg" alt="nathan" width="300"/>
+<br>
+Nathan is a senior at Lehigh studying finance and business analytics.
+<br><br><br>
+<img src="pics/margaux.JPG" alt="margaux" width="300"/>
+<br>
+Margaux is a senior at Lehigh studying Finance 
+<br><br><br>
+<img src="pics/isabel.jpeg" alt="isabel" width="300"/>
+<br>
+Isabel is a senior at Lehigh studying finance and business analytics.
