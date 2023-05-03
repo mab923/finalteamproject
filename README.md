@@ -63,8 +63,9 @@ Here are some graphs that we created in our analysis. We saved them to the `pics
 
 ![](pics/corr.png)
 This correlation matrix displays the correlation coefficients between the variables we created in our EDA process. 
-
+<br><br>
 ![](pics/p1.png)
+<br><br>
 This graph depicts the returns of our 3 chosen securities after a interest rate hike. The time variable on the bottom depicts the days leading up to the rate change and the days following. Note the sharp increases in returns in the 1-2 days surronding the announcement of a rate increase.
 
 <br><br>
