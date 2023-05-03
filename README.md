@@ -18,7 +18,7 @@ Below is a high-level overview of the steps we took during the project. For a mo
 
 ## Table of contents
 1. [Introduction](#introduction)
-2. [Data](#data)
+2. [Data Description](#data)
 3. [Methodologies](#meth)
     1. [Loading Data](#load)
     2. [Cleaning Data](#clean)
@@ -32,19 +32,19 @@ Interest rate changes can have large effects on the economy in both the stock an
 
 ## Data Description <a name="data"></a>
 
-We chose to use data from the years 2015 through 2023. We felt this was a large enough sample to draw conclusion from without making the dataset too large. 
+We chose to use data from the years 2015 through 2023. We felt this was a large enough sample to draw conclusions from without making the dataset too large. 
 
 In order to properly track the movement of stock price and bond prices we chose the following securities to track:
 - Federal Open Market Committee (FOMC)
 - S&P 500 - indicator for stock correlation
-- Vanguard Intermdiate Long-Term Bond Index Fund (VBILX) -bond sample
+- Vanguard Intermediate Long-Term Bond Index Fund (VBILX) -bond sample
 - Vanguard Short-Term Bond Index Fund Admiral Shares (VBIRX) - bond sample
 
 The two bond indexes were chosen due to their relatively stable returns and low risk metrics. The two bonds indexes would cover the correlation between bonds and rate hikes for our analysis
 
 The S&P 500 was the logical choice for tracking the stock market due to the high variety in sector, industry, and size of the companies in the index.
 
-The FOMC dataset was used to collect the different rate hikes that occured over the period of 2015-2023
+The FOMC dataset was used to collect the different rate hikes that occurred over the period of 2015-2023
 
 To see the collection of datasets used (raw/clean/final) click [here](https://github.com/mab923/finalteamproject/tree/main/inputs)
 
@@ -53,7 +53,7 @@ To see the collection of datasets used (raw/clean/final) click [here](https://gi
 
 
 ### Loading Data <a name="load"></a>
-The datasets were luckily able to be accesed online and found without importing using a function like yfinance. The raw datasets were loaded in using pandas. The raw datasets are located in the inputs folder
+The datasets were luckily able to be accessed online and found without importing using a function like yfinance. The raw datasets were loaded using pandas. The raw datasets are located in the inputs folder
 
 ### Cleaning Data <a name="clean"></a>
 A thorough EDA was done to ensure there were no missing variables or extreme outliers. VIsualizations were also utilized to understand the data.
@@ -72,18 +72,18 @@ This correlation matrix displays the correlation coefficients between the variab
 <br><br>
 ![](pics/p1.png)
 <br><br>
-This graph depicts the returns of our 3 chosen securities after a interest rate hike. The time variable on the bottom depicts the days leading up to the rate change and the days following. Very interesting results as there is a sharp increase right after the announcement of an increase in rates
+This graph depicts the returns of our 3 chosen securities after an interest rate hike. The time variable on the bottom depicts the days leading up to the rate change and the days following. Very interesting results as there is a sharp increase right after the announcement of an increase in rates
 
 <br><br>
 ![](pics/p2.png)
 <br><br>
-This graph is similar to the one above but depicts the returns after a decrease in interest rates. Similar feeling as the last graph as their are some mixed findings here. The pattern is slightly closer to what we expected
+This graph is similar to the one above but depicts the returns after a decrease in interest rates. Similar feeling as the last graph as there are some mixed findings here. The pattern is slightly closer to what we expected
 <br><br>
 
 
 ## Summary <a name="summary"></a>
 
-Our hypothesis was both challenged and supported by our findings in this project. The correlation matrix offered some support to our hypothesis but also was suprising with its correlation of the S&P 500 returns. Similarly, the return graphs showed some semblance of a pattern with returns and rates, but not neccesarily the one that we predicted. We suspect that more variables and indexes would have to be chosen for the experiement to show some real results if it were to be done again.
+Our hypothesis was both challenged and supported by our findings in this project. The correlation matrix offered some support to our hypothesis but also was surprising with its correlation of the S&P 500 returns. Similarly, the return graphs showed some semblance of a pattern with returns and rates, but not necessarily the one that we predicted. We suspect that more variables and indexes would have to be chosen for the experiment to show some real results if it were to be done again.
 
 
 ## About the team
@@ -93,11 +93,11 @@ Nathan is a senior at Lehigh studying finance and business analytics.
 <br><br><br>
 <img src="pics/don2.jpg" alt="margaux" width="300"/>
 <br>
-Margaux is a a senior at Lehigh studying finance and business analytics.
+Margaux is a senior at Lehigh studying finance and business analytics.
 <br><br><br>
 <img src="pics/don2.jpg" alt="isabel" width="300"/>
 <br>
-Margaux is a a senior at Lehigh studying  
+Margaux is a senior at Lehigh studying  
 
 
 ## Collection of imports needed
