@@ -81,7 +81,7 @@ From this plot we can easily see the strength of correlation between increases a
  <br>
  From this plot we are able to analyze the impact of the negative and positive rates on the returns of VBLIX
  
- ## Analysis <a name="anal"></a>
+## Analysis <a name="anal"></a>
  
 While some of the analysis we gathered supported our initial assumptions, it's clear that we have to reject our hypothesis after looking through the data and visualizations. While there were moments in the graphs where the increase in a rate led to a decrease in returns, the relationship was not linear and experienced too much volatility to consider a serious finding. While we still believe that this relationship exists, especially when looking at stocks, it's clear that we need to include more samples in our data as well as look at the data from different viewpoints. One phenomenon that we observed that did back up our assumptions was that the s&p 500 index was significantly more volatile in the periods we were analyzing than either of the two bond indexes. This makes intuitive sense as bonds are a lot less liquid and people generally like to hold onto their bonds for longer. One suspicion our group has based on the graphs we saw was that people are more likely to speculatively buy a stock they think is going to go up, then they are to sell a stock they already own. People are much more likely to believe that the stock they are choosing will be a winner versus admitting to themselves the stock they own is a loser. Not only does this make sense psychologically, but the data backs this assumption up reasonably well. One idea we had for improving our analysis would be to create a categorical variable with 4 bins: small hike, large hike, small decrease, and large decrease. This would give us the ability to look at the returns in relation to the size of the increase versus just the average. Another idea for improving the study would be to separate the meeting dates and rate hikes into seasons or periods of the year. This would allow us to extract the true correlations versus returns that were shifting strictly because of season or market patterns.
 
@@ -97,9 +97,13 @@ Our hypothesis was both challenged and supported by our findings in this project
 ## Helpful Links: <a name="help"></a>
 
 The final analysis file is [here](https://github.com/mab923/finalteamproject/blob/main/Analysis/Final_Analysis.ipynb)
+<br>
 To see the collection of datasets used (raw/clean/final) click [here](https://github.com/mab923/finalteamproject/tree/main/inputs)
+<br>
 All of the visualization can be found [here](https://github.com/mab923/finalteamproject/tree/main/pics)
+<br>
 Presentation of Project [here](https://docs.google.com/presentation/d/1FVA0dMcFhYUgkXvHzQWL9D_ouhccAGN5Ac7-nf0jBTs/edit#slide=id.g1b76803da3e_0_5)
+<br>
 
 Below is information about the members of the team
 
