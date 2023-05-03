@@ -93,11 +93,11 @@ Nathan is a senior at Lehigh studying finance and business analytics.
 <br><br><br>
 <img src="pics/margaux.JPG" alt="margaux" width="300"/>
 <br>
-Isabel is a senior at Lehigh studying finance and business analytics.
+Margaux is a senior at Lehigh studying Finance 
 <br><br><br>
 <img src="pics/isabel.jpeg" alt="isabel" width="300"/>
 <br>
-Margaux is a senior at Lehigh studying Finance 
+Isabel is a senior at Lehigh studying finance and business analytics.
 
 
 ## Collection of imports needed
