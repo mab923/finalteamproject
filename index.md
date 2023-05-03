@@ -98,7 +98,8 @@ Our hypothesis was both challenged and supported by our findings in this project
 
 The final analysis file is [here](https://github.com/mab923/finalteamproject/blob/main/Analysis/Final_Analysis.ipynb)
 To see the collection of datasets used (raw/clean/final) click [here](https://github.com/mab923/finalteamproject/tree/main/inputs)
-(https://github.com/mab923/finalteamproject/tree/main/pics)
+All of the visualization can be found [here](https://github.com/mab923/finalteamproject/tree/main/pics)
+Presentation of Project [here](https://docs.google.com/presentation/d/1FVA0dMcFhYUgkXvHzQWL9D_ouhccAGN5Ac7-nf0jBTs/edit#slide=id.g1b76803da3e_0_5)
 
 Below is information about the members of the team
 
