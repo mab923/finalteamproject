@@ -49,15 +49,19 @@ To see the collection of datasets used (raw/clean/final) click [here](https://gi
 
 
 ## Methodologies <a name="meth"></a>
-Blah blah
 
-### Subsection 1 <a name="subsec2-1"></a>
-This is a subsection, formatted in heading 3 style
 
-### Subsection 2 <a name="subsec2-2"></a>
-This is a subsection, formatted in heading 3 style
+### Loading Data <a name="load"></a>
+The datasets were luckily able to be accesed online and found without importing using a function like yfinance. The raw datasets were loaded in using pandas. The raw datasets are located in the inputs folder
 
-## Analysis Section <a name="section3"></a>
+### Cleaning Data <a name="clean"></a>
+A thorough EDA was done to ensure there were no missing variables or extreme outliers. VIsualizations were also utilized to understand the data.
+For more information on the detailed EDA look at the team website
+
+## Merging and Creating Variables Section <a name="merge"></a>
+created a variable for the time index of rate changes, a categorical variable displaying if a change in rate was an increase or decrease, and a column depicting the magnitude of rate change.
+
+## Visualizations <a name='viz'></a>
 
 Here are some graphs that we created in our analysis. All of the visualization can be found [here](https://github.com/mab923/finalteamproject/tree/main/pics)
 
@@ -78,7 +82,7 @@ This graph is similar to the one above but depicts the returns after a decrease 
 
 ## Summary <a name="summary"></a>
 
-Blah blah
+Our hypothesis was largely supported by the findings we had. The changes in return surronding a increase in rates
 
 
 
@@ -87,25 +91,26 @@ Blah blah
 <br>
 Nathan is a senior at Lehigh studying finance and business analytics.
 <br><br><br>
-<img src="pics/don2.jpg" alt="don" width="300"/>
+<img src="pics/don2.jpg" alt="margaux" width="300"/>
+<br>
+Margaux is a a senior at Lehigh studying finance and business analytics.
+<br><br><br>
+<img src="pics/don2.jpg" alt="isabel" width="300"/>
 <br>
 Margaux is a a senior at Lehigh studying  
 
 
-## More 
+## Collection of imports needed
 
 ```python
-import seaborn as sns 
-iris = sns.load_dataset('iris') 
-
-print(iris.head(),  '\n---')
-print(iris.tail(),  '\n---')
-print(iris.columns, '\n---')
-print("The shape is: ",iris.shape, '\n---')
-print("Info:",iris.info(), '\n---') # memory usage, name, dtype, and # of non-null obs (--> # of missing obs) per variable
-print(iris.describe(), '\n---') # summary stats, and you can customize the list!
-print(iris['species'].value_counts()[:10], '\n---')
-print(iris['species'].nunique(), '\n---')
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import statsmodels.formula.api as smf
+from tqdm import tqdm
+import glob
+import os
+from time import sleep
+import fnmatch
 ```
-
-Notice that the output does NOT show! **You have to copy in figures and tables from the notebooks.**
