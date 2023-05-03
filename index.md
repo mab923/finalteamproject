@@ -56,6 +56,12 @@ From this plot we can easily see the strength of correlation between increases a
  Plot #5
  <img src="pics/p5.png?raw=true"/>
  From this plot we are able to analyze the impact of the negative and postive rates on the returns of VBLIX
+ 
+ ## Analysis
+ 
+## Summary
+
+Our hypothesis was both challenged and supported by our findings in this project. The correlation matrix offered some support to our hypothesis but also was surprising with its correlation of the S&P 500 returns. Similarly, the return graphs showed some semblance of a pattern with returns and rates, but not necessarily the one that we predicted. We suspect that more variables and indexes would have to be chosen for the experiment to show some real results if it were to be done again.
 
 
 ## About the team
