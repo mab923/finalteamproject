@@ -20,6 +20,8 @@ The data set will consist of daily market return data on days t-10 to t+10, wher
 We will require data on market performance information sourced from the S&P 500, VBILX, and VBIRX. As well as information on the change in Reserve Requirement from the Federal Reserve Board for information on changes in montetary policy durong our specified time period. This information will allow us to study the impact of monetary policy decisions and potential correlation between the policy and stocks & bonds
 
 ### 2. Clean Data
+After gathering the data, we performed cleaning and exploratory analysis to prepare it for analysis. We used the describe function to understand find count, mean, std, among other key factors. Then we looked for missing values in the data; we found the missing data was minimum but we used the dropna function to have a clean version of the data. We then coverted object variables to numeric values. We also explored the outliers and discussed the findings. However, we decided not to eliminate the outliers because it would affect our results. To confirm the results we printed the dtypes. Finally, we used the pairplot to visualize the relationships between the variables in the dataset.
+
 
 ### 3. Putting the Data Together
 We created a row in our data frame for every date in the fifteen days prior and after a change in the FOMC rate. From our sourced data we merged togethter the returns and trading volume of all three indexes we wished to examine, as well as the change in rate.
