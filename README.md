@@ -10,7 +10,7 @@ Large increases in interest rates would lead to negative or lower returns in the
 
 
 
-The final analysis file is [here](https://github.com/mab923/finalteamproject/blob/main/Analysis/Final_Analysis.ipynb).
+The final analysis file is [here](https://github.com/mab923/finalteamproject/blob/main/Analysis/Final_Analysis.ipynb)
 
 Below is a high-level overview of the steps we took during the project. For a more in depth look into the entire project go to our team website here [team project website!](https://mab923.github.io/finalteamproject)
 
