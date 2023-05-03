@@ -62,6 +62,7 @@ This is a subsection, formatted in heading 3 style
 Here are some graphs that we created in our analysis. All of the visualization can be found [here](https://github.com/mab923/finalteamproject/tree/main/pics)
 
 ![](pics/corr.png)
+<br><br>
 This correlation matrix displays the correlation coefficients between the variables we created in our EDA process. 
 <br><br>
 ![](pics/p1.png)
