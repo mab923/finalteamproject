@@ -19,10 +19,11 @@ Below is a high-level overview of the steps we took during the project. For a mo
 ## Table of contents
 1. [Introduction](#introduction)
 2. [Data](#data)
-3. [Methodology 2](#meth)
-    1. [Subsection](#subsec2-1)
-    2. [Subsection](#subsec2-2)
-4. [Analysis Section](#section3)
+3. [Methodologies](#meth)
+    1. [Loading Data](#load)
+    2. [Cleaning Data](#clean)
+    3. [Merging Data](#merge)
+4. [Visualizations](#viz)
 5. [Summary](#summary)
 
 ## Introduction  <a name="introduction"></a>
@@ -67,23 +68,22 @@ Here are some graphs that we created in our analysis. All of the visualization c
 
 ![](pics/corr.png)
 <br><br>
-This correlation matrix displays the correlation coefficients between the variables we created in our EDA process. 
+This correlation matrix displays the correlation coefficients between the variables we created in our EDA process. The S&P 500 returns are especially interesting as they indicate a strong positive correlation between an interest rate hike and returns of the index.
 <br><br>
 ![](pics/p1.png)
 <br><br>
-This graph depicts the returns of our 3 chosen securities after a interest rate hike. The time variable on the bottom depicts the days leading up to the rate change and the days following. Note the sharp increases in returns in the 1-2 days surronding the announcement of a rate increase.
+This graph depicts the returns of our 3 chosen securities after a interest rate hike. The time variable on the bottom depicts the days leading up to the rate change and the days following. Very interesting results as there is a sharp increase right after the announcement of an increase in rates
 
 <br><br>
 ![](pics/p2.png)
 <br><br>
-This graph is similar to the one above but depicts the returns after a decrease in interest rates. Its interesting that the decrease in returns surronding the announcement date is not nearly as sharp as the increases. This could be due to investors reluctance to sell assets but willingness to buy new securities.
+This graph is similar to the one above but depicts the returns after a decrease in interest rates. Similar feeling as the last graph as their are some mixed findings here. The pattern is slightly closer to what we expected
 <br><br>
 
 
 ## Summary <a name="summary"></a>
 
-Our hypothesis was largely supported by the findings we had. The changes in return surronding a increase in rates
-
+Our hypothesis was both challenged and supported by our findings in this project. The correlation matrix offered some support to our hypothesis but also was suprising with its correlation of the S&P 500 returns. Similarly, the return graphs showed some semblance of a pattern with returns and rates, but not neccesarily the one that we predicted. We suspect that more variables and indexes would have to be chosen for the experiement to show some real results if it were to be done again.
 
 
 ## About the team
