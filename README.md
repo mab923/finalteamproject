@@ -93,9 +93,9 @@ Nathan is a senior at Lehigh studying finance and business analytics.
 <br><br><br>
 <img src="pics/don2.jpg" alt="margaux" width="300"/>
 <br>
-Margaux is a senior at Lehigh studying finance and business analytics.
+Isabel is a senior at Lehigh studying finance and business analytics.
 <br><br><br>
-<img src="pics/don2.jpg" alt="isabel" width="300"/>
+<img src="pics/isabel.jpeg" alt="isabel" width="300"/>
 <br>
 Margaux is a senior at Lehigh studying  
 
