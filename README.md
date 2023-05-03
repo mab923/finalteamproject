@@ -45,7 +45,7 @@ The S&P 500 was the logical choice for tracking the stock market due to the high
 
 The FOMC dataset was used to collect the different rate hikes that occured over the period of 2015-2023
 
-To see the collection of datasets used (raw/clean/final) click [here](https://github.com/mab923/finalteamproject/tree/main/inputs).
+To see the collection of datasets used (raw/clean/final) click [here](https://github.com/mab923/finalteamproject/tree/main/inputs)
 
 
 ## Methodologies <a name="meth"></a>
@@ -59,7 +59,7 @@ This is a subsection, formatted in heading 3 style
 
 ## Analysis Section <a name="section3"></a>
 
-Here are some graphs that we created in our analysis. We saved them to the `pics/` subfolder and include them via the usual markdown syntax for pictures.
+Here are some graphs that we created in our analysis. All of the visualization can be found [here](https://github.com/mab923/finalteamproject/tree/main/pics)
 
 ![](pics/corr.png)
 This correlation matrix displays the correlation coefficients between the variables we created in our EDA process. 
