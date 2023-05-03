@@ -63,14 +63,14 @@ Here are some graphs that we created in our analysis. We saved them to the `pics
 
 ![](pics/corr.png)
 This correlation matrix displays the correlation coefficients between the variables we created in our EDA process. 
-More analysis.
+
 ![](pics/p1.png)
-This graph depicts the returns of our 3 chosen securities after a interest rate hike. The time variable on the bottom depicts the days leading up to the rate change and the days following.
-Some analysis here
+This graph depicts the returns of our 3 chosen securities after a interest rate hike. The time variable on the bottom depicts the days leading up to the rate change and the days following. Note the sharp increases in returns in the 1-2 days surronding the announcement of a rate increase.
+
 <br><br>
 ![](pics/p2.png)
 <br><br>
-This graph is similar to the one above but depicts the returns after a decrease in interest rates.
+This graph is similar to the one above but depicts the returns after a decrease in interest rates. Its interesting that the decrease in returns surronding the announcement date is not nearly as sharp as the increases. This could be due to investors reluctance to sell assets but willingness to buy new securities.
 <br><br>
 
 
@@ -87,7 +87,7 @@ Nathan is a senior at Lehigh studying finance and business analytics.
 <br><br><br>
 <img src="pics/don2.jpg" alt="don" width="300"/>
 <br>
-Don is an assistant professor at Lehigh.
+Margaux is a a senior at Lehigh studying  
 
 
 ## More 
