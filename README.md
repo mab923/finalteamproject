@@ -91,13 +91,13 @@ Our hypothesis was both challenged and supported by our findings in this project
 <br>
 Nathan is a senior at Lehigh studying finance and business analytics.
 <br><br><br>
-<img src="pics/don2.jpg" alt="margaux" width="300"/>
+<img src="pics/margaux.jpg" alt="margaux" width="300"/>
 <br>
 Isabel is a senior at Lehigh studying finance and business analytics.
 <br><br><br>
 <img src="pics/isabel.jpeg" alt="isabel" width="300"/>
 <br>
-Margaux is a senior at Lehigh studying  
+Margaux is a senior at Lehigh studying Finance 
 
 
 ## Collection of imports needed
